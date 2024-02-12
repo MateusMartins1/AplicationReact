@@ -1,4 +1,4 @@
-import { Main } from './components/Main'
+import { Section } from './components/Section'
 import { Nav } from './components/Nav'
 
 function App() {
@@ -6,7 +6,13 @@ function App() {
   return (
     <div className='Flex bg-black'> 
        <Nav/>
-       <Main/>
+       <br />
+       <div className='flex justify-center gap-60'>
+        <Section/>
+        <Section/>
+        <Section/>
+       </div>
+       
     </div>
   )
 }
